@@ -2,7 +2,7 @@
   z-index: 0;
   width: 400px;
   height: 609px;
-  opacity: 0;
+  opacity: 1;
   position: absolute;
   top: 0;
   right: 15%;
@@ -29,9 +29,8 @@
     transform: rotateZ(30deg) !important;
     z-index: 0;
   }
-}
-
-.svg-container {
-  stroke: #ffd700;
-  stroke-width: 10;
+  .svg-container {
+    stroke: #ffd700;
+    stroke-width: 10;
+  }
 }

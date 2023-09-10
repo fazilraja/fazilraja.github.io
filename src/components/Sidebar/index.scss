@@ -101,6 +101,12 @@
             }
         }
 
+        a.portfolio-link {
+            &:after {
+                content: 'PORTFOLIO'
+            }
+        }
+
         //the active link(if we are on home page the home page icon will be yellow etc)
         a.active {
             svg {

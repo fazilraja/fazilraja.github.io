@@ -4,6 +4,7 @@ import "./index.scss"
 import { useEffect, useState } from 'react';
 import AnimatedLetters from '../AnimatedLetters';
 import Logo from './Logo';
+import Loader from 'react-loaders';
 
 const Home = () => {
 
@@ -39,7 +40,7 @@ const Home = () => {
 
                     <AnimatedLetters letterClass={letterClass}
                     strArray={jobArray} 
-                    idx={26} />
+                    idx={19} />
                 </h1>
 
                 <h2>Masters Student / Full Stack Developer / Coder</h2>
@@ -47,6 +48,7 @@ const Home = () => {
             </div>
             <Logo />
         </div>
+        <Loader type='pacman' />
         </>
     );
 }
